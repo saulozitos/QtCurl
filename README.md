@@ -1,4 +1,4 @@
-# qtcurl
+# QtCurl
 Run **curl_easy** transfers asynchronously just inside your Qt main thread. 
 
 Behind the scenes there is **curl_multi** legally hooked on Qt socket & timer events. Not very much of code needed for that actually. But if you're too lazy to deal with **curl_multi** in event-based system on your own, you'll probably be happy with these sources. 
